@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.383 452.003">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff9ef;
+        stroke-linejoin: round;
+        stroke-width: 4.175px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        font-size: 80px;
+      }
+
+      .cls-5 {
+        font-size: 38.421px;
+      }
+
+      .cls-6 {
+        fill: #f05e1c;
+        stroke: #f05e1c;
+        stroke-miterlimit: 10;
+        stroke-width: 15.82px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.107em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.206em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.171em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.138em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.113em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.125em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.043em;
+      }
+
+      .cls-14 {
+        fill: #fff9ef;
+        font-family: TsukuARdGothic-Bold-83pv-RKSJ-H, 'Tsukushi A Round Gothic';
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー_1">
+    <path class="cls-6" d="M357.473,227.872c0,119.415-78.244,216.221-174.763,216.221-104.796,0-176.664-121.744-174.763-216.221.289-14.383,3.353-81.064,39.537-111.465,32.137-27,63.847-3.074,96.976-35.55,27.731-27.185,19.237-59.746,38.251-69.206,49.941-24.849,174.763,77.109,174.763,216.221Z"/>
+    <text class="cls-14" transform="translate(63.571 325.506)"><tspan class="cls-4"><tspan class="cls-7" x="0" y="0">ご</tspan><tspan class="cls-13" x="71.424" y="0">予</tspan><tspan x="147.952" y="0">約</tspan></tspan><tspan class="cls-5"><tspan class="cls-12" x="13.173" y="53.41">は</tspan><tspan class="cls-8" x="46.807" y="53.41">こ</tspan><tspan class="cls-9" x="77.328" y="53.41">ち</tspan><tspan class="cls-10" x="109.175" y="53.41">ら</tspan><tspan class="cls-11" x="142.286" y="53.41">か</tspan><tspan x="176.358" y="53.41">ら</tspan></tspan></text>
+    <g>
+      <rect class="cls-1" x="107.529" y="98.165" width="150.325" height="150.326"/>
+      <path class="cls-3" d="M240.756,204.999v-84.467h-116.126v105.593h85.747"/>
+      <path class="cls-3" d="M124.629,135.147h116.126"/>
+      <g>
+        <path class="cls-2" d="M205.862,195.104h9.865"/>
+        <path class="cls-2" d="M205.862,181.081h9.865"/>
+        <path class="cls-2" d="M205.862,167.059h9.865"/>
+        <path class="cls-2" d="M205.862,153.036h9.865"/>
+        <path class="cls-2" d="M191.81,209.126h9.865"/>
+        <path class="cls-2" d="M191.81,195.104h9.865"/>
+        <path class="cls-2" d="M191.81,181.081h9.865"/>
+        <path class="cls-2" d="M191.81,167.059h9.865"/>
+        <path class="cls-2" d="M191.81,153.036h9.865"/>
+        <path class="cls-2" d="M177.759,209.126h9.865"/>
+        <path class="cls-2" d="M177.759,195.104h9.865"/>
+        <path class="cls-2" d="M177.759,181.081h9.865"/>
+        <path class="cls-2" d="M177.759,167.059h9.865"/>
+        <path class="cls-2" d="M177.759,153.036h9.865"/>
+        <path class="cls-2" d="M163.708,209.126h9.865"/>
+        <path class="cls-2" d="M163.708,195.104h9.865"/>
+        <path class="cls-2" d="M163.708,181.081h9.865"/>
+        <path class="cls-2" d="M163.708,167.059h9.865"/>
+        <path class="cls-2" d="M163.708,153.036h9.865"/>
+        <path class="cls-2" d="M149.657,209.126h9.865"/>
+        <path class="cls-2" d="M149.657,195.104h9.865"/>
+        <path class="cls-2" d="M149.657,181.081h9.865"/>
+        <path class="cls-2" d="M149.657,167.059h9.865"/>
+        <path class="cls-2" d="M135.606,209.126h9.865"/>
+        <path class="cls-2" d="M135.606,195.104h9.865"/>
+        <path class="cls-2" d="M135.606,181.081h9.865"/>
+        <path class="cls-2" d="M135.606,167.059h9.865"/>
+        <path class="cls-2" d="M219.913,195.104h9.865"/>
+        <path class="cls-2" d="M219.913,181.081h9.865"/>
+        <path class="cls-2" d="M219.913,167.059h9.865"/>
+        <path class="cls-2" d="M219.913,153.036h9.865"/>
+      </g>
+      <path class="cls-3" d="M218.269,218.592l9.959,9.914,23.3-25.997"/>
+      <circle class="cls-3" cx="229.778" cy="221.912" r="19.401"/>
+    </g>
+  </g>
+</svg>
