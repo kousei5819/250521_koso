@@ -424,7 +424,7 @@ header{
     }
 
     .news-btn{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .news-pc{
@@ -449,13 +449,13 @@ header{
     }
 
     .news-date{
-        font-size: 12px;
+        font-size: 14px;
         padding-bottom: 5px ;
         padding-right: 0;
     }
     
     .news-text{
-        font-size: 14px;
+        font-size: 16px;
     }
     
 }
@@ -481,7 +481,7 @@ about
 }
 
 .about-box02{
-    margin-top: 100px;
+    margin-top: 120px;
     flex-direction: row-reverse;
 }
 
@@ -554,8 +554,9 @@ about
 }
 
 @media screen and (max-width: 768px) {
-    .about-cnt{
-        margin: 50px auto;
+    .about-cnt,
+    .about-box02{
+        margin: 60px auto;
     }
 
     .about-box01,
