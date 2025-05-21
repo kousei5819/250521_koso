@@ -66,9 +66,6 @@ img{
 .mgt80{
     margin-top: 80px;
 }
-p{
-    font-family: "游ゴシック";
-}
 
 @media screen and (max-width: 465px){
     .sp-br{
@@ -85,8 +82,8 @@ p{
 
 .btn{
     display: inline-block;
-    width: 170px;
-    padding: 10px 0;
+    width: 200px;
+    padding: min(3.5vw, 20px) 0px;
     border-radius: 50px;
     background-color: #f05e1c;
     color: #ffffff;
@@ -105,7 +102,7 @@ p{
     position: relative;
     display: inline-block;
     width: 80%;
-    padding: min(1.5vh, 20px) 0px;
+    padding: min(3vw, 20px) 0px;
     border-radius: 50px;
     background-color: #ffffff;
     color: #54433b;
