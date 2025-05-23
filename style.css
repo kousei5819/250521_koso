@@ -16,10 +16,10 @@
 body{
     background-image: url(img/back_img.png);
 }
-.sub_bg{
+.bg-w{
     background-image: url(img/background.jpg);
 }
-p h1 h2 h3 h4{
+p,h1,h2,h3,h4{
     color: #6A3427;
 }
 img{
@@ -68,6 +68,75 @@ img{
 .mgt80{
     margin-top: 80px;
 }
+.mgt120{
+    margin-top: 120px;
+}
+
+.mgb10{
+    margin-bottom: 10px;
+}
+.mgb20{
+    margin-bottom: 20px;
+}
+.mgb30{
+    margin-bottom: 30px;
+}
+.mgb40{
+    margin-bottom: 40px;
+}
+.mgb50{
+    margin-bottom: 50px;
+}
+.mgb80{
+    margin-bottom: 80px;
+}
+.mgb120{
+    margin-bottom: 120px;
+}
+
+.pdt10{
+    padding-top: 10px;
+}
+.pdt20{
+    padding-top: 20px;
+}
+.pdt30{
+    padding-top: 30px;
+}
+.pdt40{
+    padding-top: 40px;
+}
+.pdt50{
+    padding-top: 50px;
+}
+.pdt80{
+    padding-top: 80px;
+}
+.pdt120{
+    padding-top: 120px;
+}
+
+.pdb10{
+    padding-bottom: 10px;
+}
+.pdb20{
+    padding-bottom: 20px;
+}
+.pdb30{
+    padding-bottom: 30px;
+}
+.pdb40{
+    padding-bottom: 40px;
+}
+.pdb50{
+    padding-bottom: 50px;
+}
+.pdb80{
+    padding-bottom: 80px;
+}
+.pdb120{
+    padding-bottom: 120px;
+}
 
 @media screen and (max-width: 465px){
     .sp-br{
@@ -111,8 +180,8 @@ img{
     font-size: min(5vw, 20px);
     text-align: center;
     max-width: 320px;
-    font-weight: bold;
-    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 700;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 .line-btn::before{
@@ -125,7 +194,7 @@ img{
     right: 10%;
     transform: translateY(-50%);
     font-family: "Material Symbols Outlined";
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .news-item-btn{
@@ -198,6 +267,7 @@ header{
     align-items: center;
     justify-content: space-between; 
     margin: 0 50px;
+    padding: 20px 0;
 }
 
 .logo{
@@ -216,7 +286,7 @@ header{
 
 .nav-li a{
     padding-left: 20px;
-    color: #8a7558;
+    color: #6A3427;
     font-weight: bold;
 }
 
@@ -321,7 +391,7 @@ header{
 
 .swiper-container{
     width: 90vw;
-    height: 730px;
+    height: 600px;
     overflow: hidden;
     max-width: 1300px;
     margin: 0 auto;
@@ -379,7 +449,7 @@ header{
     border-bottom: 1px solid#342611;;
     padding-bottom: 5px;
     color: #342611;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .news-sp{
@@ -410,6 +480,8 @@ header{
     color: #4a381c;
     font-size: 16px;
     font-weight: normal;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 @media screen and (max-width: 768px) {    
@@ -421,10 +493,6 @@ header{
     .news-head{
         font-size: 23px;
         margin-bottom: 0px;
-    }
-
-    .news-btn{
-        font-size: 14px;
     }
 
     .news-pc{
@@ -449,15 +517,9 @@ header{
     }
 
     .news-date{
-        font-size: 14px;
         padding-bottom: 5px ;
         padding-right: 0;
     }
-    
-    .news-text{
-        font-size: 16px;
-    }
-    
 }
 
 
@@ -476,7 +538,7 @@ about
     position: relative;
     display: flex;
     align-items: center;
-    gap: 5vw;
+    gap: 3vw;
     padding: 50px 0;
 }
 
@@ -653,6 +715,7 @@ sns
     font-weight: bold;
     text-align: center;
     padding-bottom: 40px;
+    color: #ffffff;
 }
 
 
@@ -1038,8 +1101,34 @@ picture img{
     transform: translateY(-1px)!important;
 }
 
-
-
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+下層ページ　共通
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+.page-mv{
+    width: 100%;
+    height: min(49vw,490px);
+    background-image: url(img/DSC02249.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.page-mv-ttl-l{
+    color: #fff;
+    font-size: min(7vw, 40px);
+    margin-left: 7%;
+}
+.page-mv-ttl-r{
+    color: #fff;
+    font-size: min(7vw, 40px);
+    margin-right: 7%;
+}
+.lower-ttl{
+    font-size: 30px;
+    margin-bottom: 80px;
+    text-align: center;
+}
 
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 アバウトページ
@@ -1058,31 +1147,6 @@ picture img{
     display: flex;
     justify-content: center;
     align-items: center;
-
-} */
-
-.page-mv-about{
-    width: 100%;
-    height: min(49vw,490px);
-    background-image: url(img/DSC02249.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-}
-
-.page-mv-about h2{
-    color: #fff;
-    font-size: min(7vw, 40px);
-    margin-left: 7%;
-}
-
-/* .page-head h2{
-    font-size: min(8vw, 40px);
-    letter-spacing: 3px;
-    color: #fff;
 } */
 
 .about-mv img{
@@ -1131,62 +1195,71 @@ picture img{
 .about-p-box02{
     flex-direction: row-reverse;
 }
-
-.about-p-box03{
-    padding: 30px 0;
-    background-image: url(img/background.jpg);
-
+.about-p-text>h3{
+    font-size: 26px;
 }
 
-.box03-head{
-    font-size: 28px;
-    color: #342611;
-    text-align: center;
+.about-box-ctn{
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1080px;
 }
-
-.about-p-box03-text{
+.about-grid{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     gap: 40px;
-    margin-top: 50px;
 }
-
-.box3-img{
+.about-grid-item{
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border: 3px solid #6A3427;
+    border-radius: 15px;
+    /* display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+    gap: 20px!important; */
+}
+.about-grid-ttl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.about-grid-ttl>h3{
     text-align: center;
+    font-size: 24px;
+    color: #f05e1c;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.dotted_line{
+    border-bottom: 2px dashed #6A3427;
+    margin-bottom: 20px;
 }
 
-.test-bg{
-    position: relative;
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+ご利用の流れ
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+.flow-item{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+    margin-bottom: 60px;
 }
 
-.test-text{
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 22px;
-    line-height: 1.7;
-    color: #fff;
+.flow-item>img{
+    border-radius: 10px;
 }
-
-.box3-img img{
-    width: 200px;
-    border-radius: 50%;
-    height: 200px;
-    object-fit: cover;
+.flow-item-txt>h4{
+    font-size: 24px;
+    margin-bottom: 20px;
 }
-
-.box3-item p{
-    margin: 20px 0;
-    line-height: 1.8;
-    font-size: 15px;
-    color: #342611;
-    text-align: justify;
+.flow-item-txt-margin{
+    margin-right: 10px;
 }
-
 @media screen and (max-width: 830px){
-    .about-p-box03-text{
+    .about-grid{
         grid-template-columns: auto auto;
     }
 }
@@ -1195,21 +1268,20 @@ picture img{
     .head-box{
         padding-top: 70px;
     }
-    
     .about-p-box01,
     .about-p-box02{
         flex-direction: column;
     }
-    /* .about-p-box01,
-    .about-p-box02,
-    .about-p-box03{
-        margin-top: 80px;
-    } */
+    .flow-item{
+        grid-template-columns: auto;
+        gap: 20px;
+    }
 }
 
-@media screen and (max-width: 450px){
-    .about-p-box03-text{
+@media screen and (max-width: 600px){
+    .about-grid{
         grid-template-columns: auto;
+        gap: 20px;
     }
 }
 
@@ -1217,77 +1289,56 @@ picture img{
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 料金ページ
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
-.fee-box{
-    padding: 0 5%;
-    border-radius: 30px;
+.fee-box-item{
+    margin-top: 80px;
 }
-
-.fee-mv img{
+.fee-box-item-ttl{
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.fee-two_lows,
+.fee-three_lows{
     width: 100%;
-    height: auto;
+    border-collapse: collapse;
+    color: #6A3427;
 }
-
-.fee-head,
-.monthly-box{
+.fee-two_lows tr th,
+.fee-two_lows tr td{
+    width: 50%;
+    padding: 15px 0;
+    border: 2px solid #6A3427;
+}
+.fee-two_lows tr th{
+    background-color: #DBCBC0;
+    font-size: 18px;
+}
+.fee-two_lows tr td{
+    background-color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
 }
 
-.fee-head h2{
-    font-size: 35px;
-    color: #342611;
+.fee-three_lows tr th,
+.fee-three_lows tr td{
+    width: 33%;
+    padding: 15px 0;
+    border: 2px solid #6A3427;
 }
-
-.fee-item01{
-    margin-top: 50px!important;
+.fee-three_lows tr th{
+    background-color: #DBCBC0;
+    font-size: 18px;
 }
-
-.fee-item01,
-.fee-item02{
-    background-color: #fffafa;
-    background-size: cover;
-    border-radius: 5px;
-    width: 100%;
-    margin: 10px 0;
-    color: #342611;
-    border: 2px solid #342611;
-}
-
-.fee-item-box01,
-.item-flex,
-.fee-item-box02{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.fee-item-box01,
-.fee-item-box03{
-    background-image : linear-gradient(to right, #342611, #342611 15px, transparent 2px, transparent 8px);  /* 幅2の線を作る */
-    background-size: 20px 2px;          /* グラデーションの幅・高さを指定 */
-    background-position: left bottom;  /* 背景の開始位置を指定 */
-    background-repeat: repeat-x;       /* 横向きにのみ繰り返す */
-    padding: 30px 50px;
-}
-
-.fee-item-box{
-    margin-top: 100px;
-    color: #342611;
-}
-.fee-item-box>h2{
+.fee-three_lows tr td{
+    background-color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
 }
-
-.fee-item-box02,
-.fee-item-box04{
-    padding: 30px 50px;
+.monthly{
+    margin-top: 20px;
 }
-
-.fee-sub-text{
-    font-size: 12px;
-    color: #000;
-}
-
 .monthly-head{
     font-size: 16px;
 }
@@ -1298,52 +1349,60 @@ picture img{
     text-align: justify;
 }
 
-.cancel-box{
-    margin-top: 80px;
-    color: #342611;
-}
-
-.cancel-head{
-    font-size: 16px;
-    text-align: center;
-}
-
-.cancel-box-text{
-    margin-top: 20px;
+.fee-font-s{
     font-size: 14px;
+    font-weight: normal;
 }
 
+.cancel-box{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #6A3427;
+}
 .cancel-td01{
     vertical-align: top;
 }
-
 .cancel-td02{
-    padding-bottom: 7px;
+    padding-bottom: 10px;
     padding-left: 15px;
+    line-height: 1.7;
 }
-
 .cancel-space{
     padding-left: 28px;
 }
-
 .cancel-tx01{
-    padding-bottom: 7px;
-
+    line-height: 1.7;
+}
+.fee-box-table-sp{
+    display: none;
+}
+.fee-item-sp>h4{
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 0;
+    background-color: #DBCBC0;
+    border: 2px solid#6A3427;
+    border-bottom: none;
+}
+.fee-item-sp>p{
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border: 2px solid#6A3427;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px){
-    .fee-item-box01,
-    .fee-item-box02,
-    .fee-item-box03,
-    .fee-item-box04{
-        padding: 20px 20px;
+    .fee-box-table-sp{
+        display: block;
     }
-
-    .item-box-text{
-        font-size: 15px;
+    .fee-box-table-pc{
+        display: none;
     }
-
-    .cancel-li td{
+    .cancel-box td{
         display: block;
     }
 
@@ -1366,21 +1425,7 @@ picture img{
     object-fit: cover;
 }
 
-.page-mv{
-    background-image: url(img/koso_img01.jpg);
-    width: 90%;
-    height: min(50vh, 500px);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    border-radius: 50px;
-    margin: 20px auto 0 auto;
-}
-
-.page-mv h2{
+.page-mv-ttl-r{
     color: #fff;
     font-size: min(6vw, 40px);
     margin-right: 7%;
